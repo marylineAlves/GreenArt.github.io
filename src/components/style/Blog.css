@@ -1,0 +1,56 @@
+
+
+/* Bouton artcile */
+.btnArticleSpan{ 
+  cursor:pointer;
+  position:relative;
+  padding:10px 20px;
+  background:white;
+  font-size:18px;
+  transition:all 1s;
+  } 
+
+.btnArticleSpan:after{
+  content:" ";
+  width:10px;
+  height:10px;
+  position:absolute;
+  border :0px solid #fff;
+  transition:all 1s;
+  }
+
+  .btnArticleSpan:after{
+  top:-1px;
+  left:-1px;
+  border-top:5px solid black;
+  border-left:5px solid black;
+  }
+
+.btnArticleSpan:hover{
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  background:black;
+  color:white;
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 1450px){
+    .titlemob{
+      margin-top: -5% !important;
+    }
+    .divmob{
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .bordermobBlog{
+      margin-left: 3%;
+      width: 22rem !important;
+    }
+    .btnArticleSpan{ 
+      position: revert
+      } 
+    .videoArticle{
+        width: 100% !important;
+        height: 100% !important;
+      }
+  }

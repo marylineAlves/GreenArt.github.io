@@ -1,0 +1,30 @@
+@media screen and (min-width: 200px) and (max-width: 1450px){
+  .titlemob{
+    margin-top: 0%;
+  }
+  .divmobLearn{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+  }
+  .bordermob{
+    margin-left: 3%;
+    width: 22rem !important;
+  }
+  .mr-20{
+    margin-right: 0% !important;
+  }
+  .sectionLearn{
+    margin-top: 10px;
+    border-left-width: 0px !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+
+.strong {
+  color: #ff770f;
+  font-weight: bold;
+  font-size: 20px;
+}

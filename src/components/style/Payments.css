@@ -1,0 +1,120 @@
+@media screen and (min-width: 200px) and (max-width: 1450px){
+  .logoPaym{
+    margin-top: 0%;
+  }
+  .pgePrece{
+    margin-top: 10% !important;
+
+  }
+  .divmob{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .numForm{
+    padding-left: 10px ;     
+    padding-right: 10px !important;
+    }
+    .formReserv{
+      text-align: center;
+    }
+    .textCenterPaym{
+      padding-left: 35%;
+    }
+    .textCenterPaym2{
+      width: 100%;
+    }
+    .dropdown {
+      padding-left: 20px;
+      display: inline-block;
+    }
+    .popup-content{
+      width: 100% !important;
+      overflow: scroll !important;
+      height: 100%;
+    }
+    .popupButt{
+      margin-left: 10%;
+      margin-bottom: 10% !important;
+    }
+    .mob{
+      visibility: hidden !important;
+    }
+    .popTitle{
+      padding-left: 0% !important;
+      text-align: center;
+    }
+    .textPop {
+      margin-top: -60% !important;
+      overflow: scroll;
+      padding-left: 20px !important;
+      padding-right: 15px !important;    
+    }
+    .svg-wrapper {
+      height: 30px;
+      margin-top: 10% !important;
+      padding-top: 0px !important;        
+      border-bottom: 4px solid black !important;  
+      width: 50%;
+    }
+    .txtPaym{
+      font-size:  15px !important;
+      letter-spacing: 0px !important;
+      margin-left: 0% !important;
+      text-align: center !important;
+    }
+    .shape {
+      fill: transparent;
+      stroke: white !important;     
+    }   
+}
+
+    .dropdown{
+      float: inherit;
+    }
+
+/* Button 1 */
+
+.svg-wrapper {
+  height: 60px;
+	margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 320px;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  stroke: #000;
+}
+
+.txtPaym {
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  position: relative;
+  top: -50px;
+  margin-left: -7% ;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}

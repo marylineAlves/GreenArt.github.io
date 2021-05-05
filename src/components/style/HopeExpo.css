@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Cinzel";
+  src: local("Cinzel"),
+   url("../fonts/Cinzel/Cinzel-Regular.ttf") format("truetype");
+};
+
+@font-face {
+  font-family: "Cormorant";
+  src: local("Cormorant_Garamond"),
+   url("../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf") format("truetype");
+};
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+   url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+};
+
+
+
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
+header a {
+  font-family: "Cormorant";
+}
+
+/* Effet texte */
+@keyframes filling {
+  from{
+    background-position: center 1%;
+  }
+  to {
+    background-position: center 100%;
+  }
+}
+
+.container-text-hope {
+  background-image:  url("../../components/image/degrade/vert.png");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  padding-top: 20px;
+  margin-left: 35%  !important;
+  font-size: 40px;
+  font-family: "Cinzel";
+  animation: filling 7s ease forwards;
+}
+
+/* image hope */
+.imgHope{
+  width: 420px;
+  height: 400px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* Border hope */
+.borderHope{
+  background: linear-gradient(to right, #000, #00770f);
+  padding: 3px;
+}
+
+/* Bouton réservation */
+.buttonHope{
+  width: 90%;
+  text-align: center;
+}
+.custom-btn-hope {
+  width: 130px;
+  height: 40px;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none; 
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+
+}
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.btn-5:hover {
+  color: #00770f;
+  background: transparent;
+  box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #00770f;
+  box-shadow:
+  -1px -1px 5px 0px #fff,
+  7px 7px 20px 0px #0003,
+  4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1450px){
+  .divmob {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container-text-hope{
+    margin-top: 0%;
+    margin-left: 0% !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .textReservation{
+    font-size: 20px ;     
+    text-align: center;
+  }
+  .divReserv{
+    display: inline;
+  }
+  .custom-btn-hope{
+    border: 1px solid #000;
+    margin-right: -10% !important;
+  }
+  .txtHope{
+    padding-left: 15px !important;
+    padding-right:  15px !important;
+  }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Cinzel";
+    src: local("Cinzel"),
+    url("./components/fonts/Cinzel/Cinzel-Regular.ttf") format("truetype");
+};
+
+* {
+    font-family: "Cinzel";
+}

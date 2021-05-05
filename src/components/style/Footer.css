@@ -1,0 +1,19 @@
+@media screen and (min-width: 200px) and (max-width: 1450px){
+
+  .footerCard{
+    padding-left: 0% !important;
+  }
+  .addrFoot{
+    visibility: hidden;
+  }
+  .sctFoot{
+    display: contents;
+  }
+  .ctnrFoot{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+
+  }
+}

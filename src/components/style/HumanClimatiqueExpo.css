@@ -1,0 +1,176 @@
+
+.expotitre {
+  margin-right: 20% !important;
+}
+/* image humanitaire*/
+.imgHumanClima{
+  width: 420px;
+  height: 400px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* Border humanitaire */
+.borderHumanClimatique{
+  background: linear-gradient(to right, #000, #046c78);
+  padding: 3px;
+}
+
+/* Bouton réservation */
+.btnHumanClima{
+  width: 90%;
+  text-align: center;
+}
+.custom-btn-human-clima {
+  width: 130px;
+  height: 40px;
+  color: #000;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none; 
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+
+}
+.btn-humanClima {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.btn-humanClima:hover {
+  color: #046c78;
+  background: transparent;
+  box-shadow:none;
+}
+.btn-humanClima:before,
+.btn-humanClima:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #046c78;
+  box-shadow:
+  -1px -1px 5px 0px #fff,
+  7px 7px 20px 0px #0003,
+  4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-humanClima:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-humanClima:hover:before,
+.btn-humanClima:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+/* Effet texte */
+@keyframes filling {
+  from{
+    background-position: center 1%;
+  }
+  to {
+    background-position: center 100%;
+  }
+}
+
+.container-text-HumanClima {
+  background-image:  url("../../components/image/degrade/bleu.png");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  padding-top: 20px;
+  margin-left: 40%  !important;
+  font-size: 40px;
+  font-family: "Cinzel";
+  animation: filling 7s ease forwards;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 1450px){
+    .divmob {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .container-text-humanExpo {
+      margin-top: 0%;
+      margin-left: 0% !important;
+      font-size: 30px !important;
+      text-align: center;
+    }
+    .txt-paragraph-humanExpo{
+      -webkit-columns: 1 !important;
+      padding-left: 15px !important;
+      padding-right:  15px !important;
+    }
+    .borderPExpo{
+      border-right-width: 0px !important;
+    }
+    .imgHomeHuman{
+    display: hidden;
+    }
+    .view{
+      width: 100% !important;
+    }
+    .menu {
+      width: 100%;
+      font-size: 30px !important;
+      padding-left: 15% !important
+    }
+    .col-1 {
+      margin-left: 0% !important;
+      width: 100%;
+    }
+    .container-text-HumanClima{
+      margin-top: 0%;
+      margin-left: 30% !important;
+      font-size: 30px !important;
+      text-align: center;
+      padding-left: 15px !important;
+      padding-right:  15px !important;
+    }
+    .textExpo {
+      text-align: center;
+      padding-left: 15px !important;
+      padding-right:  15px !important;
+    }
+    .ml-14{
+      margin-left: 0%;
+    }
+    .textReservation{
+      font-size: 20px ;     
+      text-align: center;
+      padding-left: 15px !important;
+      padding-right:  15px !important;
+    }
+    .divReserv{
+      display: inline;
+    }
+    .btn-humanClima {
+      border: 1px solid #000;
+      margin-right: -10% !important;
+    }
+    .price{
+      font-weight: bold !important;
+      color: red;
+      display: block;
+    }
+    
+}

@@ -1,0 +1,62 @@
+#col {
+  column-count: 2;
+}#col1 {
+  column-count: 2;
+}
+ /* Border  */
+ .borderDon{
+  background: linear-gradient(to right, #000, #ff770f);
+  padding: 3px;
+  margin-bottom: 20px !important;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1450px){
+  .titlemob{
+    margin-top: 0% !important;
+  }
+  .divmob{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .imgDonation{
+    width: 100% !important;
+    border-radius: 0%;
+  }
+  .txtCenter{
+    text-align: center;
+  }
+  .textPdona{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .msgDon{
+    display: contents;
+    margin-left: 0% !important;
+    width: 100%;
+  }
+  .donDiv{
+    display: contents;
+    margin-left: 0% !important;
+    width: 100%;
+    padding-top: 10% !important;
+  }
+  #col1{
+    column-count: 1;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .spantext{
+    font-size: 30px !important;
+    margin-top: 15px !important;
+    margin-left: 10% !important;
+  }
+  .btnDon{
+    font-size: 30px !important;
+    margin-top: 15px !important;
+    margin-left: 20% !important;
+  }
+}
+
+
+

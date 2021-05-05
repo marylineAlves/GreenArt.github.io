@@ -1,0 +1,80 @@
+/* Border  */
+.borderBooking{
+  background: linear-gradient(to right, #00770f, #046c78);
+  padding: 2px;
+}
+
+
+.rainbow-button {
+  width:calc(150px + 6px);
+  height:calc(50px + 6px);
+  background-image: linear-gradient(90deg, #00770f 0%, #046c78 49%, #00770f 80%, #046c78 100%);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size:15px;
+  font-weight:bold;
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:150px;
+  height:50px;
+  background-color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 1450px){
+  .titleBook{
+    margin-top: -10%;
+    font-size: 20px;
+  }
+  .divmob{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .borderBooking{
+    margin-left: 3%;
+    width: 22rem !important;
+  }
+  .acompteReserv{ 
+    text-align: center;
+  } 
+  .textReserv{
+    padding-left: 15px !important;
+    padding-right:  15px !important;
+    }
+    .textReservForm {
+      font-size: 30px;
+      text-align: center;
+    }
+    .formReserv{
+      display: contents;
+    }
+    .NumNameForm{
+      padding-left: 10px ;     
+      padding-right: 10px !important;
+    }
+    .formFont{
+      font-size: 15px;
+    }
+    .formConfirm{
+      margin-left: 10px !important;
+      padding-right:  15px !important;
+      text-align: center;
+    }
+
+}

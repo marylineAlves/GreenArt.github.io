@@ -1,0 +1,40 @@
+.contactPage {
+    background-image: url("https://www.baremedelarbre.fr/wp-content/uploads/2020/02/img_arbre_01-01_Plan-de-travail-1.png");
+    background-size: cover;
+    background-position: -40rem;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1450px){
+  .titlemobContact{
+    margin-top: 20%;
+    margin-left: 0% !important;
+  }
+  .divmob{
+    width: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .contactPage {
+    background-image: none;
+  }
+  .divContact{
+    justify-content: center;
+    display: contents !important
+  }
+  .map{
+    width: 100% !important;
+  }
+  .contact{
+    padding-left: 10% !important;
+  }
+  .popupButt{
+    margin-left: 10%;
+    margin-bottom: 10% !important;
+  }
+  .popTitle{
+    padding-left: 0% !important;
+    text-align: center;
+  }
+
+}
